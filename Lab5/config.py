@@ -1,0 +1,10 @@
+CLASSES=["Husky", "Chihuahua", "Afghan", "Pekinese", "Sheepdog"]
+DATA_PATH = "Data"
+WIDTH=299
+HEIGHT=299
+BATCH_SIZE=32
+TRAIN_SIZE=0.7
+VALIDATION_SIZE=0.15
+TEST_SIZE=0.15
+EPOCHS=15
+MODEL_PATH = 'model.keras'
